@@ -1,6 +1,6 @@
 from PIL import Image
 
-image  = Image.open(r"C:\Users\emre\Documents\GitHub\Python-Goruntu-Isleme\MedyanFiltreleme\test.png")
+image  = Image.open(r"C:\Users\xxx\Documents\GitHub\Python-Goruntu-Isleme\MedyanFiltreleme\test.png")
 
 loader = image.load()
 
@@ -52,6 +52,6 @@ for m in range(1,image_width+1):
 
 loader[m-1,n-1] = (value,value,value)
 
-image.save(r"C:\Users\emre\Documents\GitHub\Python-Goruntu-Isleme\MedyanFiltreleme\resim_blured.png")
+image.save(r"C:\Users\xxx\Documents\GitHub\Python-Goruntu-Isleme\MedyanFiltreleme\resim_blured.png")
 image.show
         
